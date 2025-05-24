@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desarrollador de Software - [Tu Nombre]</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f6f8;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: linear-gradient(135deg, #1e293b, #0f172a);
+      color: white;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+    header .typed-text {
+      font-size: 1.5rem;
+      color: #0ea5e9;
+      margin-top: 0.5rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #1e293b;
+      padding: 1rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      max-width: 960px;
+      margin: 3rem auto;
+      padding: 1rem;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+      margin-bottom: 2rem;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    h2 {
+      color: #1e293b;
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #1e293b;
+      color: white;
+    }
+    a {
+      color: #0ea5e9;
+      text-decoration: none;
+    }
+    .cta {
+      text-align: center;
+      margin: 2rem 0;
+    }
+    .cta a {
+      background: #0ea5e9;
+      color: white;
+      padding: 1rem 2rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .cta a:hover {
+      background: #0284c7;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>[Tu Nombre]</h1>
+    <div class="typed-text"></div>
+  </header>
+
+  <nav>
+    <a href="#sobre-mi">Sobre mí</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="sobre-mi" class="card">
+    <h2>Sobre mí</h2>
+    <p>Soy un desarrollador de software especializado en soluciones web, APIs robustas y sistemas escalables. Trabajo con tecnologías modernas para ayudar a empresas y emprendedores a llevar sus ideas al siguiente nivel.</p>
+  </section>
+
+  <section id="servicios" class="card">
+    <h2>Servicios</h2>
+    <ul>
+      <li>Diseño y desarrollo de sitios web profesionales</li>
+      <li>Creación de aplicaciones web interactivas</li>
+      <li>APIs RESTful y backend en Node.js, Python, PHP</li>
+      <li>Integración de sistemas y bases de datos</li>
+    </ul>
+    <div class="cta">
+      <a href="#contacto">Solicita una cotización</a>
+    </div>
+  </section>
+
+  <section id="proyectos" class="card">
+    <h2>Proyectos destacados</h2>
+    <p>Aquí puedes agregar una galería o lista de tus proyectos más exitosos con capturas, enlaces y descripciones.</p>
+  </section>
+
+  <section id="contacto" class="card">
+    <h2>Contacto</h2>
+    <p>¿Quieres trabajar conmigo o tienes un proyecto en mente?</p>
+    <p>Email: <a href="mailto:tuemail@example.com">tuemail@example.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/tuusuario" target="_blank">/tuusuario</a></p>
+    <p>GitHub: <a href="https://github.com/tuusuario" target="_blank">@tuusuario</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 [Tu Nombre] - Desarrollador de Software</p>
+  </footer>
+
+  <script>
+    var typed = new Typed('.typed-text', {
+      strings: ["Desarrollador Web", "Especialista en Backend", "Creador de APIs", "Tu aliado tecnológico"],
+      typeSpeed: 50,
+      backSpeed: 30,
+      backDelay: 2000,
+      loop: true
+    });
+  </script>
+</body>
+</html>
